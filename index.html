@@ -1,0 +1,316 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="postercustom.js"></script>
+		<script type="text/javascript" src="excelexport.js"></script>
+	</head>
+
+	<body>
+		<img src="main.jpg" />
+		
+		<a href="#" class="export"><div id="resultbox"></div></a>
+
+		<div id="box1">
+		</div>
+		
+		<div id="box2">
+		</div>
+		
+		<div id="box3">
+		</div>
+		
+		<div id="box4">
+		</div>
+		
+		<div id="box5">
+		</div>
+		
+		<div id="box6">
+		</div>
+		
+		<div id="box7">
+		</div>
+		
+		<div id="box8">
+		</div>
+		
+		<div id="dvData">
+    <table>
+        <tr>
+            <th>Photo No.</th>
+            <th>Vote Count</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td id="result1" class="results">0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td id="result2" class="results">0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td id="result3" class="results">0</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td id="result4" class="results">0</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td id="result5" class="results">0</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td id="result6" class="results">0</td>
+        </tr>
+		<tr>
+            <td>7</td>
+            <td id="result7" class="results">0</td>
+        </tr>
+		<tr>
+            <td>8</td>
+            <td id="result8" class="results">0</td>
+        </tr>
+    </table>
+</div>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<img src="tyedit.jpg" />
+				<div id="imagine">
+					<span id="clicked">0</span><br/>
+					<span id="word">VOTES</span>
+				</div>
+		</div>
+
+		</div>
+
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("box1");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//btn2
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("box2");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//btn3
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn3 = document.getElementById("box3");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn3.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//btn4
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn4 = document.getElementById("box4");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn4.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//btn5
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn5 = document.getElementById("box5");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn5.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//btn6
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn6 = document.getElementById("box6");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn6.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//btn7
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn7 = document.getElementById("box7");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn7.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//btn8
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn8 = document.getElementById("box8");
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn8.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+</script>
+	</body>
+
+</html>
