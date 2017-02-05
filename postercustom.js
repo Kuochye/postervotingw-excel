@@ -165,7 +165,4 @@ $('#box8').click(function() {
         $("#dvData").toggle();
     });
 	
-	$(function() {
-    FastClick.attach(document.body);
-});
 });
