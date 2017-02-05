@@ -168,5 +168,5 @@ $('#box8').click(function() {
 	$('body').bind('touchend', function(e) {
   e.preventDefault();
   // Add your code here.
-})
+});
 });
