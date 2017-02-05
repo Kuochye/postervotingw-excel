@@ -165,8 +165,7 @@ $('#box8').click(function() {
         $("#dvData").toggle();
     });
 	
-	$('body').bind('touchend', function(e) {
-  e.preventDefault();
-  // Add your code here.
+	$(function() {
+    FastClick.attach(document.body);
 });
 });
